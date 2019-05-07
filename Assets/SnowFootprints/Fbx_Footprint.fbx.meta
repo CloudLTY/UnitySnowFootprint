@@ -26,7 +26,12 @@ ModelImporter:
     4300002: footL
     4300004: L
     4300006: R
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EthanWhite
+    second: {fileID: 2100000, guid: d8bdd36f319302a4e9e7d00e8347e95b, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
