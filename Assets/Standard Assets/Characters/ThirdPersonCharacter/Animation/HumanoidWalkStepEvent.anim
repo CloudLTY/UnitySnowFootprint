@@ -76101,15 +76101,15 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:
-  - time: 0.3
-    functionName: DoLStep
+  - time: 0
+    functionName: DoRStep
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.8
-    functionName: DoRStep
+  - time: 0.36666667
+    functionName: DoLStep
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
