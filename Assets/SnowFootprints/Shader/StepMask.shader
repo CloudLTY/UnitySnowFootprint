@@ -53,8 +53,9 @@
 
         Pass
         {
-            Name "depth"
+            Name "depth_"
             ColorMask G
+            Blend One Zero
             CGPROGRAM
             
             #pragma vertex vert
@@ -86,7 +87,7 @@
             fixed4 frag(v2f i): SV_Target
             {
                 // sample the texture
-                fixed4 col = fixed4(0, 1 - i.depth, 0, 1);
+                fixed4 col = fixed4(0, i.depth, 0, 1);
                 return col;
             }
             ENDCG
